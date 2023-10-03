@@ -22,7 +22,7 @@
 }
 @media (max-width: 767px) {
   .fpantalla {
-    background-image: url("./imagenes/fondodepagina-movil.jpg");
+    background-image: url("./imagenes/fondodepagina.jpg");
     background-size: cover;
   }
 }
