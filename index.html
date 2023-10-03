@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CultoMotos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="fpantalla">
+    <div id="ageCheck">
+      <h1>Verificación de Edad</h1>
+
+      <form id="ageForm">
+        <label for="age">Por favor, ingresa tu edad:</label>
+        <input type="number" id="age" name="age" required />
+        <button type="submit">Verificar</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+    <div id="contenido" style="display: none">
+      <div id="mainContent" class="hide">
+        <h1 class="titulo">Bienvenido a CultoMotos</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/hondacb650.png"
+                  class="card-img-top"
+                  alt="HondaCB650"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">HondaCB 650</h5>
+                  <p class="card-text">
+                    Imponente...Honda la moto para rutear sin descanso.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">6500</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/suzuki350.png"
+                  class="card-img-top"
+                  alt="Guantes Marrones"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Suzuki 350</h5>
+                  <p class="card-text">
+                    Suzuki Tracker para todo terreno y andar sin parar.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">5500</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/triumph.png"
+                  class="card-img-top"
+                  alt="Guantes Marrones"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Triumph550</h5>
+                  <p class="card-text">
+                    Excelencia y confort, esta moto lo tiene todo.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">7500</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/campblanca.png"
+                  class="card-img-top"
+                  alt="Campera Blanca"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Campera Plex</h5>
+                  <p class="card-text">
+                    Campera reforzada ultra compacta para evitar lesiones ante
+                    caidas.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">2500</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/camperanegra.png"
+                  class="card-img-top"
+                  alt="Campera Negra"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Campera Max</h5>
+                  <p class="card-text">
+                    Campera negra maxi resistente al frio y preparada para
+                    soportar roces.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">2500</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/guantea.png"
+                  class="card-img-top"
+                  alt="Guantes Amarillos"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Guantes Amarillos</h5>
+                  <p class="card-text">
+                    Guantes para cuidarte del frio y caidas. Amarillo para que
+                    resalten en tus viajes.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">250</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/cascocolor.png"
+                  class="card-img-top"
+                  alt="Cascot"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Casco Tricolor</h5>
+                  <p class="card-text">
+                    Moderno casco que te protege y te asi lucir en la carretera.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">1000</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/casconegro.png"
+                  class="card-img-top"
+                  alt="CascoN"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Casco negro</h5>
+                  <p class="card-text">
+                    Toda la facha con este maravilloso casco con su tonalidad.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">1000</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 custom-card">
+              <div class="card">
+                <img
+                  src="./imagenes/guantem.png"
+                  class="card-img-top"
+                  alt="Guantes Marrones"
+                />
+                <div class="producto"></div>
+                <div class="card-body">
+                  <h5 class="card-title">Guantes Marrones</h5>
+                  <p class="card-text">
+                    Proteccion y belleza con estos guantes de color marrones.
+                  </p>
+                  <p>PrecioUsd</p>
+                  <p class="precioProducto">250</p>
+                  <button class="agregar-carrito">Agregar al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Carrito de Compras</h3>
+      <div id="carrito" style="border: 15px solid green"></div>
+
+      <ul class="compra" id="lista-carrito"></ul>
+      <p class="total">Total: $<span id="total">0.00</span></p>
+    </div>
+    <div class="centrar">
+      <button id="vaciar-carrito">Vaciar Carrito</button>
+    </div>
+    <footer class="footercontacto">
+      <p class="piedepagina">Derechos de autor © 2023 CultoMotos</p>
+      <a href="https://es-es.facebook.com/">
+        <img
+          src="../imagenes/logoFacebook.jpg"
+          alt="icono de facebook con link hacia la app"
+          class="logofacebook"
+        />
+      </a>
+
+      <a href="https://web.whatsapp.com/">
+        <img
+          src="../imagenes/logoWhatsapp.jpg"
+          alt="icono de whatsapp con link hacia la app"
+          class="logowhatsapp"
+        />
+      </a>
+
+      <a href="https://www.instagram.com/">
+        <img
+          src="../imagenes/logoInstagram.jpg "
+          alt="icono de instagram con link hacia la app"
+          class="logoinstagram"
+        />
+      </a>
+    </footer>
+    <script src="./culto.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+#ageCheck {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 9999;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+#ageCheck.hide {
+  display: none;
+}
+.fpantalla {
+  background-image: url("./imagenes/fondodepagina.jpg");
+  background-size: cover; /* Para que la imagen cubra toda la ventana del navegador */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+.titulo {
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.custom-card {
+  width: 200px; /* Cambia este valor según tus necesidades */
+}
+
+/* Asegurarse de que las imágenes se ajusten al tamaño de la card */
+.custom-card .card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  position: end;
+  background-color: white;
+}
+
+.footercontacto {
+  margin-top: 30px;
+}
+
+.logofacebook {
+  width: 60px;
+  padding: 5%;
+}
+
+.logowhatsapp {
+  width: 60px;
+  padding: 7%;
+}
+
+.logoinstagram {
+  width: 60px;
+  padding: 7%;
+}
+h3 {
+  text-align: center;
+  color: #ff0000;
+}
+.total {
+  text-align: center;
+  color: #ff0000;
+  font-size: x-large;
+}
+.vaciar {
+  text-align: center;
+}
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+#vaciar-carrito {
+  background-color: #ff5733;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.compra {
+  color: gold;
+}
+/* CSS para dar estilo a la lista de carrito y botones */
+ul#carrito {
+  list-style: none;
+  padding: 0;
+}
+
+li.item {
+  margin-bottom: 10px;
+}
+
+button.eliminar {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button.eliminar:hover {
+  background-color: #ff2211;
+}
