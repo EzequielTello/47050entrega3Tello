@@ -20,7 +20,12 @@
   background-size: cover; /* Para que la imagen cubra toda la ventana del navegador */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
 }
-
+@media (max-width: 767px) {
+  .fpantalla {
+    background-color: rgb(114, 114, 212);
+    background-size: cover;
+  }
+}
 .titulo {
   text-align: center;
   color: white;
